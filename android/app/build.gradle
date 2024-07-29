@@ -49,7 +49,18 @@ android {
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+    
+    
+        compileSdkVersion 34  // Güncel sürüm numarası
+        minSdkVersion 21      // Minimum desteklenen sürüm
+        targetSdkVersion 34  // Gün
+    
+    
+    
+    
     }
+
+
 
     buildTypes {
         release {
